@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="overlay">
+        <div id="message">
+            <button id="close" class="fa fa-times"></button>
+            <div class="content">X is the <h2>Winner!</h2></div> 
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="tools">
+            <div class="symbols">
+                <i class="fa fa-times"></i>
+                <i class="fa fa-circle-o"></i>
+            </div>
+            <div class="turn">
+                <span class="current-turn">X</span>'s turn
+            </div>
+            <div class="reset">
+                <button class="button"><i class="fa fa-repeat"></i></button>
+            </div>
+        </div>
+
+        <div class="board">
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="player">
+                <label>Player 1</label>
+                <span class="score1">0</span>
+            </div>
+            <div class="draws">
+                <label>Draws</label>
+                <span class="draw">0</span>
+            </div>
+            <div class="player">
+                <label>Player 2</label>
+                <span class="score2">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
