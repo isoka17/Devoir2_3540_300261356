@@ -13,19 +13,19 @@ This is a classic Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
 ## Game UI States
 
-![Game Start](/docs/design_system/game_start.png)
+![Game Start](game_start.png)
 *Game start screen.*
 
-![During Game](/docs/design_system/during_game.png)
+![During Game](during_game.png)
 *Gameplay in action.*
 
-![Game Win](/docs/design_system/game_win.png)
+![Game Win](game_win.png)
 *Announcing the results.*
 
 
 ## Design System
 
-Please refer to the [Design System Documentation](/docs/design_system.md) for detailed information on the design aspects of the Tic Tac Toe game.
+Please refer to the [Design System Documentation](design_system.md) for detailed information on the design aspects of the Tic Tac Toe game.
 
 ## Technical Summary
 
